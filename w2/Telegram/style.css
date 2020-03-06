@@ -1,0 +1,74 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.button
+{
+    border: none;
+    background-color: #5682a3;
+}
+
+.textfield{
+    width: max-content;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+span{
+    color: white;
+}
+
+.right-align{
+    padding-left: 20%;
+}
+
+.topper, .bottomer
+{
+    height: 50vh;
+    width: 100%;
+}
+
+.topper{
+    background-color: #5682a3;
+}
+
+.bottomer{
+    background-color: #f7f7f7;
+}
+
+#login
+{
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    font-size: small;
+    text-align: center;
+}
+
+#sign-in{
+    border-radius: 2px;
+    background-color: white;
+    padding: 5% 10px;
+    text-align: left;
+}
+
+label, .gray{
+    color: gray;
+}
+
+
+footer{
+    text-align: center;
+    font-size: small;
+    color:gray;
+}
+
+h1
+{
+    color:white;
+    background-color: #5682a3;
+}

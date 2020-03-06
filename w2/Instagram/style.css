@@ -1,0 +1,108 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #dddddd;
+    overflow-x: hidden;
+}
+
+#left{
+    position: absolute;
+    left: 15%;
+}
+
+#right{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+}
+
+img{
+    padding: 7% 15%;
+    height: 55%;
+    width: 55%;
+}
+
+.white-ramka{
+    background-color:  white;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    text-align: center;
+    padding: 2% 5%;
+    margin: 2% 5%;
+}
+
+.white-ramka h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.white-ramka h2, .white-ramka h3{
+    color: #b5b5b5;
+    font-family: sans-serif;
+}
+
+.white-ramka h2{
+    font-size: medium;
+}
+
+.white-ramka h3{
+    font-size: small;
+}
+
+input{
+    margin: 10px 0px;
+    width: 66%;
+    padding: 1%;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    background-color: #dddddd;
+}
+
+#fb-logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.button{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 15%;
+    width:  fit-content;
+}
+
+footer{
+    text-align: center;
+    padding: 3% 20px;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+
+}
+
+footer a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#rights{
+    font-size: small;
+    color: #a3a3a3;
+}

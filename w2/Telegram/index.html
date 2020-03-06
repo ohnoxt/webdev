@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Telegram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login">
+        <form>
+            <h1>Telegram<span><input class="right-align button" type="submit" value="Next->"></span></h1>
+            
+            <div id="sign-in">
+                <h2>Sign in</h2>
+                <p class="gray">Please enter you phone number</p>
+                <table>
+                    <tr>
+
+                        <td colspan="2">
+                            <label for="country">Country</label><br>
+                            <input width="1000" class="textfield" type="text" name="country" list="countries" required>
+                            <datalist id="countries">
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="RU">Russia</option>
+                            </datalist>
+                        </td>
+
+                        <td></td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <label for="code">Code</label>
+                            <br>
+                            <input type="text" name="code" class="textfield" minlength="1" maxlength="5" required>
+                        </td>
+
+                        <td>
+                            <label for="number">Number</label>
+                            <br>
+                            <input type="text" class="textfield" pattern="[0-9]{10}" required value="phone number">
+                        </td>
+
+                    </tr>
+                </table>
+        </form>
+
+
+    </div>
+    <footer>
+        <p>
+            Welcome to the Telegram official client!
+        </p>
+    </footer>
+    </div>
+    
+    
+    <div class="topper"></div>
+    <div class="bottomer"></div>
+</body>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Facefook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <form>
+            <table>
+                <tr>
+                    <td id="facebook">
+                        <h1>Facebook</h1>
+                    </td>
+                    <td>
+                        <label for="login">Email or phone number</label>
+                        <br>
+                        <input type="text" name="login">
+                    </td>
+                    <td>
+                        <label for="ps">Password</label>
+                        <br>
+                        <input type="password" name="ps">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </header>
+
+    <main>
+        <div id="left">
+            <h2>Facebook helps you to find friends(Mostly this is illusion but you might think that this is true)</h2>
+            <img src="people.png" alt="just decoration">
+        </div>
+
+        <div id="right">
+            <form>
+                <h1>Registration</h1>
+                <h2>Slow and hard</h2>
+                <input type="text" name="first-name" placeholder="Name">
+                <input type="text" name="last-name" placeholder="Last Name">
+                <br>
+                <input type="text" name="phone-email" placeholder="Phone or Email">
+                <br>
+                <input type="password" name="ps" placeholder="Password">
+                <br>
+                <h3>Date of birth</h3>
+                <input type="number" name="birth-date" min="1" max="31" value="1">
+                <input type="list" name="birth-month" list="months">
+                <datalist id="months">
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </datalist>                
+                <input type="number" name="birth-year" min="1900" max="2020" value="2020">
+                <h3>Gender</h3>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="lang">
+            <a href="../Instagram/link.html">Kazakh</a>
+            <a href="../Instagram/link.html">Russian</a>
+            <a href="../Instagram/link.html">Deustch</a>
+            <a href="../Instagram/link.html">Netherlands</a>
+            <a href="../Instagram/link.html">Portugal</a>
+
+        </p>
+    </footer>
+</body>
+
+</html>
