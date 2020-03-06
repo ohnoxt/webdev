@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: purple solid 3px;
+}
+
+.product h2 {
+  padding: 10px;
+}
+
+.product img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.product-amount {
+  padding: 20px;
+}
+
+* {
+  color: purple;
+}

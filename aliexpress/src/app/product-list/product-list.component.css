@@ -1,0 +1,30 @@
+img{
+  width: 300px;
+  height: 300px;
+}
+
+.product{
+  display: flex;
+  justify-content: space-between;
+  background-color: #800080;
+  margin: 5px 20px;
+  border-radius: 5px;
+}
+
+.product img{
+  border: #FFC0CB solid 2px;
+  border-radius: 5px;
+  margin: 20px 20px;
+}
+
+.product-text{
+  margin: 20px;
+  padding: 10px 20px;
+  border: #CC99FE dashed 2px;
+  border-radius: 5px;
+}
+
+.back-button {
+  font-size: 1.5em;
+  margin: 10px 30px;
+}

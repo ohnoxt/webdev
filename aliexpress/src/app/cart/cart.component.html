@@ -1,0 +1,19 @@
+<h1>Cart</h1>
+
+<div *ngFor="let prd of cart.keys()" class="product light-backgr">
+  <div>
+    <img [src]="prd.imagesLinks" alt="Product Image">
+  </div>
+
+  <div>
+    <h2><a [href]="prd.link" target="_blank">{{prd.name}}</a></h2>
+  </div>
+
+  <div class="product-amount">
+    <input (input)="cartService.changeAmount(prd, $any($event.target).value)" [value]="cart.get(prd)" type="number">
+    <button (click)="cartService.delete(prd)">Remove</button>
+  </div>
+  
+</div>
+
+<h1 *ngIf="cart.size === 0">Your cart is empty!</h1>

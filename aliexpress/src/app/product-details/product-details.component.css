@@ -1,0 +1,13 @@
+img {
+  width: 500px;
+  height: 500px;
+}
+
+#product {
+  display: flex;
+}
+
+#product-text {
+  display: flex;
+  flex-direction: column;
+}

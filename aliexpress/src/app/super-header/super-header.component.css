@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  font-size: xx-large;
+  margin: 0;
+  padding: 2% 5%;
+  width: 100%;
+  box-sizing: border-box;
+  color: aliceblue;
+  display: flex;
+  vertical-align: center;
+  justify-content: space-between;
+}
+
+a {
+  color: aliceblue;
+}
+
+header h3 {
+  display: inline-block;
+  border: white solid 2px;
+  font-size: 1.5rem;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  margin: 5px 10px 0 10px;
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+}

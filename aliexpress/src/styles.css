@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monserrat', sans-serif;
+  font-size: x-large;
+}
+
+app-super-header {
+  position: sticky;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+app-super-header {
+  position: sticky;
+  top: 0;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px purple solid;
+  font-weight: bold;
+  background-color: #FF0000;
+  color: white;
+  margin: 5px;
+}
+
+.dark-backgr {
+  background-color: #000000;
+}
+
+.light-backgr {
+  background-color: #FF0000;
+}
+
+.header-text {
+  color: purple;
+}

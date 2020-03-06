@@ -1,0 +1,29 @@
+<div *ngIf="product" id="product">
+  
+  <img [src]="product.imagesLinks" alt="">
+  
+  <div id="product-text">
+   
+    <div>
+      <h1><a [href]="product.link">{{product.name}}</a></h1>
+      <h1>Price: {{product.price}} tenge</h1>
+      <h1>Rating: {{product.rating}}</h1>
+      <p>
+        Description.
+      </p>
+    </div>
+    
+    <div class="buttons">
+
+      <button (click)="cartService.addToCart(product)">Add To Cart</button>
+      <button><a [href]="'https://vk.com/share.php?url=' + product.link" target="_blank">Share via VK</a></button>
+      <a [routerLink]="'/categories/' + product.categoryId + '/products'">
+        <button>Back to category</button>
+      </a>
+    
+    </div>
+  
+  </div>
+
+</div>
+
